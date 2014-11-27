@@ -1,0 +1,88 @@
+{
+  "head":{
+    "img": "img/cin.png",
+    "title": "Diseñadora Gráfica"
+  },
+  "body":{
+    "about_title": "¿Quién?",
+    "about_img": "img/me.png",
+    "about": "Diseñadora gráfica, web e ilustradora. Amo el dibujo, technología, gadgets y los videojuegos",
+    "knowledge_title":"¡Mis Superpoderes!",
+    "knowledge": {
+      "text": " UI Designer con 5 años de experiencia en:",
+      "skill_name":" HTML, CSS, SCSS, JS, JSON, HB",
+      "icons": {
+        "html": {"url":"img/icons/i_html.png"},
+        "css": {"url":"img/icons/i_css.png"},
+        "scss": {"url": "img/icons/i_scss.png"},
+        "js": {"url":"img/icons/i_js.png"},
+        "json":{"url": "img/icons/i_json.png"},
+        "hb":{"url": "img/icons/i_hb.png"}
+      }
+    },
+    "what_i_do_title":"Procesos",
+    "what_i_do": "Primero se consultan las necesidades del cliente y se realiza un maqutado en imagen. Después se arma y al final se ven detalles.",
+    "objetives_title": "Obijetivos",
+    "objetives":{
+    "mission": {"text":" Misión: Generar hemosas intefaces, para poder dar al cliente una imagen específica para su negocio."},
+    "vission": {"text":" Visión: Me considero una diseñadora capaz de generar algunas de las mejores interfaces del mercado."}
+    },
+
+    "my_work_title": "Portafolio",  
+    "description":{
+      "1": {"text":" Trabajo feliz 1."},
+      "2": {"text":" Trabajo feliz número 2."},
+      "3": {"text":" Lalalalala"}
+    },
+    "work": {
+        "w1": {
+          "url":"img/portfolio/w1.png",
+          "width": "100%",
+          "description": " Trabajo feliz 1."
+          },
+        "w2": { 
+          "url":"img/portfolio/w2.png",
+          "width": "100%"},
+        "w3": { 
+          "url":"img/portfolio/w3.png",
+          "width": "100%"},
+        "w4": { 
+          "url":"img/portfolio/w4.png",
+          "width": "100%"},
+        "w5": { 
+          "url":"img/portfolio/w5.png",
+          "width": "100%"},   
+        "w6": { 
+          "url":"img/portfolio/w6.png",
+          "width": "100%"}    
+      },
+
+     "see_more": "Ver más ->"
+  },
+
+  "footer":{
+    "rights": "Cinth® 2014 Todos los derechos reservados"
+  },
+  "social_networks": {
+    "social_tiltle":"Mi red social", 
+
+    "fb": {
+     "url": "https://www.facebook.com/cinthiagrafik",
+     "title": "Facebook",
+     "icon": "img/icons/fb.png"
+     },
+
+    "tw": { 
+      "url": "https://twitter.com/kinty_",
+      "title": "Twitter",
+      "icon": "img/icons/tw.png"
+    },
+
+    "bh": { 
+      "url":"https://www.behance.net/cinthiagrafik",
+     "title": "Behance",
+     "icon": "img/icons/bh.png"
+    }
+  }   
+
+}

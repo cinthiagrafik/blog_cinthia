@@ -1,0 +1,63 @@
+<!-- hb template -->
+<div class="header">
+  <img src="{{head.img}}" alt="" width="100"/>
+  <p>{{head.title}}</p>
+</div>
+
+<div class="content">
+  <div class="about">
+    <h2>{{body.about_title}}</h2>
+    <img src="{{body.about_img}}"/>
+    <p class="my_desctription"> {{body.about}} </p>
+
+    <div class="networks">  
+      <p>{{social_networks.social_tiltle}}</p>
+      {{#each social_networks}}
+      <span> <a href="{{url}}" target="_blank"><img src="{{icon}}" alt=""/></a></span>
+      {{/each}}
+    </div>
+  </div>
+
+  <div class="knowledge">
+    <h2>{{body.knowledge_title}}</h2>
+    <div class="text_skills">
+      <p>{{body.knowledge.text}}</p>
+      <p>{{body.knowledge.skill_name}}</p>
+    </div>
+    <div class="img_skills">
+      {{#each  body.knowledge.icons}}
+        <img src="{{url}}"/>
+      {{/each}}
+    </div>
+  </div>
+
+  <div class="process">
+    <h2>{{body.what_i_do_title}}</h2>
+    <p>{{body.what_i_do}}</p>
+  </div>
+
+<div class="objetives">
+  <h2>{{body.objetives_title}}</h2>
+  {{#each body.objetives}}
+  <p> {{text}}</p>
+  {{/each}}
+</div>
+
+<div class="portfolio">
+  <h2>{{body.my_work_title}}</h2>
+     {{#each body.work}}
+     <div class="work">
+    <img src="{{url}}"/>
+  </div>
+  {{/each}}
+</div>
+
+</div>
+
+<!-- <button onclick="loadTpl('index', 'home', 'content');"> Cargar Tpl Abajo</button>
+     <div id="content"></div>-->
+
+  <div class="footer">
+    {{footer.rights}}
+  </div>
+
